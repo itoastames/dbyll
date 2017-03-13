@@ -45,8 +45,8 @@
 				<span class="icon-bar"></span>
 			</button>
 			{% if site.author.github %}
-			<a type="button" class="navbar-toggle nav-link" href="http://github.com/{{ site.author.github }}">
-				<i class="fa fa-github"></i>
+			<a type="button" class="navbar-toggle nav-link" href="http://facebook.com/groups/{{ site.author.facebook }}">
+				<i class="fa fa-facebook"></i>
 			</a>
 			{% endif %}
 			{% if site.author.twitter %}
@@ -59,18 +59,14 @@
 				<i class="fa fa-envelope"></i>
 			</a>
 			{% endif %}
-			<a class="navbar-brand" href="{{ site.BASE_PATH }}/">
-				<img src="//www.gravatar.com/avatar/{{site.author.email_md5}}?s=35" class="img-circle" />
-				{{ site.title }}
-			</a>
-		</div>
+	        </div>
 
 		<!-- Collect the nav links, forms, and other content for toggling -->
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav">
 				<li class="active"><a href="{{ site.BASE_PATH }}/">Home</a></li>
 				<li><a href="{{ site.BASE_PATH}}/schedule.html">Schedule</a></li>
-				<li><a href="{{ site.BASE_PATH}}/members.html">Members</a></li>
+				<li><a href="{{ site.BASE_PATH}}/members.md">Members</a></li>
 			</ul>
 		</div><!-- /.navbar-collapse -->
 	</nav>
@@ -83,7 +79,7 @@
 		<ul class="dropdown-menu" role="menu">
 			<li><a href="{{ site.BASE_PATH}}/"><i class="fa fa-home"></i>Home</a></li>
 			<li><a href="{{ site.BASE_PATH}}/schedule.html"><i class="fa fa-calendar"></i>Schedule</a></li>
-			<li><a href="{{ site.BASE_PATH}}/members.html"><i class="fa fa-users"></i>Members</a></li>
+			<li><a href="{{ site.BASE_PATH}}/members.md"><i class="fa fa-users"></i>Members</a></li>
 			<li class="divider"></li>
 			<li><a href="#"><i class="fa fa-arrow-up"></i>Top of Page</a></li>
 		</ul>
