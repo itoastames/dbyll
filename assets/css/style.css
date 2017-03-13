@@ -6,8 +6,6 @@ body{
 
 .sidebar {
 	position: fixed;
-	display: flex;
-	flex-flow: column;
 	top: 0px;
 	bottom: 300px;
 	padding-top: 10%;
