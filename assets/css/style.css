@@ -29,7 +29,11 @@ body{
 }
 
 .sidebar-flex {
+	text-align: center;
+	font-size: 10px;
+	color: #fff;
 	flex: 2 ;
+	
 }
 
 .sidebar-footer {
