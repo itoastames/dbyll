@@ -5,6 +5,7 @@ body{
 }
 
 .sidebar {
+	position: fixed;
 	display: flex;
 	flex-flow: column;
 	top: 0px;
