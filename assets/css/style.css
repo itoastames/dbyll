@@ -163,6 +163,7 @@ article.home h4 a:hover {
 footer {
 	padding-top: 15px;
 	font-family: 'Fira Sans';
+	text-align: right;
 }
 
 /* nav-vertical-tabs component */
