@@ -12,7 +12,7 @@ title: iToast Toastmasters Club
 defaults:
   -
     scope:
-      path: "" # empty string for all files
+      path: "" 
     values:
       title: iToast Toastmasters Club
 
@@ -22,22 +22,15 @@ author:
   email: amesitoast@gmail.com
   facebook: 309775882396264
   github: itoastames
-  twitter: 
-  pinterest: 
-  linkedin: 
   bio: Where Leaders Are Made
-  email_md5:
+
 
 rss_path: feed.xml
-categories_path: categories.html
-tags_path: tags.html
 
-# set it as url of an image
-# sidebar_background_image: https://www.dropbox.com/s/g9h23zrycedxtk5/sky.png?raw=1
 
 BASE_PATH:
 
 gems:
   - jekyll-paginate
   - jekyll-seo-tag
-  - jekyll-responsive-image
+
