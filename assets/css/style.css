@@ -198,6 +198,7 @@ li.member
     margin: 1em 0;
 }
 
-dt { display:block; float:left; width:100px; text-align: right;}
-dt:after{content:':';}
-dd { display:block;}
+.col1 {
+    width: 100px;
+    float: left;
+}
