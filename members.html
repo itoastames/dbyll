@@ -3,7 +3,7 @@ layout: page
 title: Members
 ---
 
-<article>
+<!--<article>
   <h4>
 <ul style="list-style-type:none">
   <li class="member"> <a href="mailto:kayoko.kimura@gmail.com">Kayoko Kimura</a> (Treasurer) </li>
@@ -26,4 +26,15 @@ title: Members
   <li class="member"> Sofia Ingersoll </li>
 </ul>
   </h4>
-</article>
+</article>-->
+<ul>
+{% for member in site.data.members %}
+  <li>
+      {{ member.name }}
+      {% if member.post != null %}
+        {{ member.post }} </br>
+        <a href="mailto:{{ member.email }}">{{ member.email }}</a>
+      {% endif %}
+  </li>
+{% endfor %}
+</ul>
