@@ -34,10 +34,10 @@ published: true
 {% for member in site.data.members %}
   <li>
       {{ member.name }}
-      <!--{% if member.post != null %}
-        {{ member.post }} </br>
+      {% if member.post != null %}
+        , <i>{{ member.post }}</i> </br>
         <a href="mailto:{{ member.email }}">{{ member.email }}</a>
-        {% endif %}-->
+        {% endif %}
   </li>
 {% endfor %}
 </ul>
