@@ -1,5 +1,3 @@
-paginate: 10 # pagination based on number of posts
-paginate_path: "pages/minutes/page:num"
 exclude: ["README.md"] # files to exclude
 title: iToast Toastmasters Club
 
