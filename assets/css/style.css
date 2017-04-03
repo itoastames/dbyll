@@ -148,6 +148,8 @@ article.home h4 a:hover {
 }
 
 footer {
+  position: fixed;
+  bottom: 0px;
 	padding-top: 15px;
 	font-family: 'Fira Sans';
 	text-align: center;
