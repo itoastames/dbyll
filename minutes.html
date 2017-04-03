@@ -4,7 +4,7 @@ title: Meeting Minutes
 ---
 
 <ul>
-    {% for post in site.posts %}
+    {% for post in paginator.posts %}
         {% if post.docurl %}
             <li><a href="{{ site.BASE_PATH }}{{ post.docurl }}"><span>{{ post.date | date_to_string }}</span></a></li>
         {% endif %}
